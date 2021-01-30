@@ -17,6 +17,9 @@
 <script src="{{ asset('src/plugins/datatables/js/dataTables.bootstrap4.min.js') }}"></script>
 <script src="{{ asset('src/plugins/datatables/js/dataTables.responsive.min.js') }}"></script>
 <script src="{{ asset('src/plugins/datatables/js/responsive.bootstrap4.min.js') }}"></script>
-<script src="{{ asset('vendors/scripts/dashboard.js') }}"></script>
-   </body>
+<script src="{{ asset('vendors/scripts/dashboard.js') }}"  class="lity-hidden" aria-hidden="true"></script>
+<script src="{{ asset('plugins/magnific-popup-videos-youtube/js/jquery.magnific-popup.min.js') }}"  class="lity-hidden" aria-hidden="true"></script>
+
+
+</body>
 </html>
