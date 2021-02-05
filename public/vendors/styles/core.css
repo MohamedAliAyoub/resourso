@@ -1,56 +1,58 @@
 
-:root {
-  --blue:#888;
-  --indigo:#6610f2;
-  --purple:#6f42c1;
-  --pink:#e83e8c;
-  --red:#dc3545;
-  --orange:#fd7e14;
-  --yellow:#ffc107;
-  --green:#28a745;
-  --teal:#20c997;
-  --cyan:#17a2b8;
-  --white:#fff;
-  --gray:#6c757d;
-  --gray-dark:#343a40;
-  --primary:#888;
-  --secondary:#6c757d;
-  --success:#28a745;
-  --info:#17a2b8;
-  --warning:#ffc107;
-  --danger:#dc3545;
-  --light:#f8f9fa;
-  --dark:#343a40;
-  --breakpoint-xs:0;
-  --breakpoint-sm:576px;
-  --breakpoint-md:768px;
-  --breakpoint-lg:992px;
-  --breakpoint-xl:1200px;
-  --font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  --font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; }
+/*:root {*/
+/*  --blue:#888;*/
+/*  --indigo:#6610f2;*/
+/*  --purple:#6f42c1;*/
+/*  --pink:#e83e8c;*/
+/*  --red:#dc3545;*/
+/*  --orange:#fd7e14;*/
+/*  --yellow:#ffc107;*/
+/*  --green:#28a745;*/
+/*  --teal:#20c997;*/
+/*  --cyan:#17a2b8;*/
+/*  --white:#fff;*/
+/*  --gray:#6c757d;*/
+/*  --gray-dark:#343a40;*/
+/*  --primary:#888;*/
+/*  --secondary:#6c757d;*/
+/*  --success:#28a745;*/
+/*  --info:#17a2b8;*/
+/*  --warning:#ffc107;*/
+/*  --danger:#dc3545;*/
+/*  --light:#f8f9fa;*/
+/*  --dark:#343a40;*/
+/*  --breakpoint-xs:0;*/
+/*  --breakpoint-sm:576px;*/
+/*  --breakpoint-md:768px;*/
+/*  --breakpoint-lg:992px;*/
+/*  --breakpoint-xl:1200px;*/
+/*  --font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";*/
+/*  --font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; }*/
 
 *, ::after, ::before {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent; }
+/*html {*/
+/*  font-family: sans-serif;*/
+/*  line-height: 1.15;*/
+/*  -webkit-text-size-adjust: 100%;*/
+/*  -webkit-tap-highlight-color: transparent; */
+/*}*/
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block; }
+/*article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {*/
+/*  display: block; }*/
 
 body {
   margin: 0;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
+   font-weight: 400;
+   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff;
+  height: auto !important;
+
+}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -945,10 +947,9 @@ pre code {
     width: auto;
     max-width: 100%; }
   .col-md-1 {
-    -ms-flex: 0 0 8.333333%;
-    -webkit-box-flex: 0;
-    flex: 0 0 8.333333%;
-    max-width: 8.333333%; }
+
+
+  }
   .col-md-2 {
     -ms-flex: 0 0 16.666667%;
     -webkit-box-flex: 0;
@@ -1467,6 +1468,168 @@ pre code {
   .offset-xl-11 {
     margin-left: 91.666667%; } }
 
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .col-md-2 {
+
+  }
+  .col-md-3 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  .col-md-4 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  .col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    -webkit-box-flex: 0;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%; }
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%; }
+  .col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    -webkit-box-flex: 0;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%; }
+  .col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    -webkit-box-flex: 0;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%; }
+  .col-md-9 {
+    -ms-flex: 0 0 75%;
+    -webkit-box-flex: 0;
+    flex: 0 0 75%;
+    max-width: 75%; }
+  .col-md-10 {
+    -ms-flex: 0 0 83.333333%;
+    -webkit-box-flex: 0;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%; }
+  .col-md-11 {
+    -ms-flex: 0 0 91.666667%;
+    -webkit-box-flex: 0;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%; }
+  .col-md-12 {
+    -ms-flex: 0 0 100%;
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%; }
+  .order-md-first {
+    -ms-flex-order: -1;
+    -webkit-box-ordinal-group: 0;
+    order: -1; }
+  .order-md-last {
+    -ms-flex-order: 13;
+    -webkit-box-ordinal-group: 14;
+    order: 13; }
+  .order-md-0 {
+    -ms-flex-order: 0;
+    -webkit-box-ordinal-group: 1;
+    order: 0; }
+  .order-md-1 {
+    -ms-flex-order: 1;
+    -webkit-box-ordinal-group: 2;
+    order: 1; }
+  .order-md-2 {
+    -ms-flex-order: 2;
+    -webkit-box-ordinal-group: 3;
+    order: 2; }
+  .order-md-3 {
+    -ms-flex-order: 3;
+    -webkit-box-ordinal-group: 4;
+    order: 3; }
+  .order-md-4 {
+    -ms-flex-order: 4;
+    -webkit-box-ordinal-group: 5;
+    order: 4; }
+  .order-md-5 {
+    -ms-flex-order: 5;
+    -webkit-box-ordinal-group: 6;
+    order: 5; }
+  .order-md-6 {
+    -ms-flex-order: 6;
+    -webkit-box-ordinal-group: 7;
+    order: 6; }
+  .order-md-7 {
+    -ms-flex-order: 7;
+    -webkit-box-ordinal-group: 8;
+    order: 7; }
+  .order-md-8 {
+    -ms-flex-order: 8;
+    -webkit-box-ordinal-group: 9;
+    order: 8; }
+  .order-md-9 {
+    -ms-flex-order: 9;
+    -webkit-box-ordinal-group: 10;
+    order: 9; }
+  .order-md-10 {
+    -ms-flex-order: 10;
+    -webkit-box-ordinal-group: 11;
+    order: 10; }
+  .order-md-11 {
+    -ms-flex-order: 11;
+    -webkit-box-ordinal-group: 12;
+    order: 11; }
+  .order-md-12 {
+    -ms-flex-order: 12;
+    -webkit-box-ordinal-group: 13;
+    order: 12; }
+  .offset-md-0 {
+    margin-left: 0; }
+  .offset-md-1 {
+    margin-left: 8.333333%; }
+  .offset-md-2 {
+    margin-left: 16.666667%; }
+  .offset-md-3 {
+    margin-left: 25%; }
+  .offset-md-4 {
+    margin-left: 33.333333%; }
+  .offset-md-5 {
+    margin-left: 41.666667%; }
+  .offset-md-6 {
+    margin-left: 50%; }
+  .offset-md-7 {
+    margin-left: 58.333333%; }
+  .offset-md-8 {
+    margin-left: 66.666667%; }
+  .offset-md-9 {
+    margin-left: 75%; }
+  .offset-md-10 {
+    margin-left: 83.333333%; }
+  .offset-md-11 {
+    margin-left: 91.666667%; } }
+
+
+
+
+
+
+
+
+
+
 .table {
   width: 100%;
   margin-bottom: 1rem;
@@ -1552,7 +1715,8 @@ pre code {
   background-color: #abdde5; }
 
 .table-hover .table-info:hover > td, .table-hover .table-info:hover > th {
-  background-color: #abdde5; }
+  background-color: #abdde5;
+}
 
 .table-warning, .table-warning > td, .table-warning > th {
   background-color: #ffeeba; }
@@ -3937,7 +4101,10 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: .25rem; }
+  border-radius: .25rem;
+  color: #597774  !important;
+  margin: 10px 0 !important;
+}
 
 .card > hr {
   margin-right: 0;
@@ -3956,10 +4123,14 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
   -webkit-box-flex: 1;
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.25rem; }
+  padding: 1.25rem;
+  color: #597774  !important;
+}
 
 .card-title {
-  margin-bottom: .75rem; }
+  margin-bottom: .75rem;
+  color: #597774  !important;
+}
 
 .card-subtitle {
   margin-top: -.375rem;
@@ -3978,7 +4149,8 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
   padding: .75rem 1.25rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);  color: #597774  !important;
+}
 
 .card-header:first-child {
   border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0; }
@@ -3989,7 +4161,8 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .card-footer {
   padding: .75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125); }
+  border-top: 1px solid rgba(0, 0, 0, 0.125);  color: #597774  !important;
+}
 
 .card-footer:last-child {
   border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px); }
@@ -7983,18 +8156,18 @@ a.text-dark:focus, a.text-dark:hover {
 Plugin URI: http://manos.malihu.gr/jquery-custom-content-scroller
 */
 /*
-CONTENTS: 
-	1. BASIC STYLE - Plugin's basic/essential CSS properties (normally, should not be edited). 
-	2. VERTICAL SCROLLBAR - Positioning and dimensions of vertical scrollbar. 
+CONTENTS:
+	1. BASIC STYLE - Plugin's basic/essential CSS properties (normally, should not be edited).
+	2. VERTICAL SCROLLBAR - Positioning and dimensions of vertical scrollbar.
 	3. HORIZONTAL SCROLLBAR - Positioning and dimensions of horizontal scrollbar.
-	4. VERTICAL AND HORIZONTAL SCROLLBARS - Positioning and dimensions of 2-axis scrollbars. 
-	5. TRANSITIONS - CSS3 transitions for hover events, auto-expanded and auto-hidden scrollbars. 
-	6. SCROLLBAR COLORS, OPACITY AND BACKGROUNDS 
+	4. VERTICAL AND HORIZONTAL SCROLLBARS - Positioning and dimensions of 2-axis scrollbars.
+	5. TRANSITIONS - CSS3 transitions for hover events, auto-expanded and auto-hidden scrollbars.
+	6. SCROLLBAR COLORS, OPACITY AND BACKGROUNDS
 		6.1 THEMES - Scrollbar colors, opacity, dimensions, backgrounds etc. via ready-to-use themes.
 */
-/* 
+/*
 ------------------------------------------------------------------------------------------------------------------------
-1. BASIC STYLE  
+1. BASIC STYLE
 ------------------------------------------------------------------------------------------------------------------------
 */
 .mCustomScrollbar {
@@ -8021,9 +8194,9 @@ CONTENTS:
   width: auto;
   height: auto; }
 
-/* 
+/*
 ------------------------------------------------------------------------------------------------------------------------
-2. VERTICAL SCROLLBAR 
+2. VERTICAL SCROLLBAR
 y-axis
 ------------------------------------------------------------------------------------------------------------------------
 */
@@ -8125,9 +8298,9 @@ y-axis
 .mCSB_scrollTools .mCSB_buttonDown {
   bottom: 0; }
 
-/* 
+/*
 ------------------------------------------------------------------------------------------------------------------------
-3. HORIZONTAL SCROLLBAR 
+3. HORIZONTAL SCROLLBAR
 x-axis
 ------------------------------------------------------------------------------------------------------------------------
 */
@@ -8202,10 +8375,10 @@ x-axis
 .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight {
   right: 0; }
 
-/* 
+/*
 ------------------------------------------------------------------------------------------------------------------------
-4. VERTICAL AND HORIZONTAL SCROLLBARS 
-yx-axis 
+4. VERTICAL AND HORIZONTAL SCROLLBARS
+yx-axis
 ------------------------------------------------------------------------------------------------------------------------
 */
 .mCSB_container_wrapper {
@@ -8269,9 +8442,9 @@ yx-axis
 .mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden {
   margin-bottom: 0; }
 
-/* 
+/*
 ------------------------------------------------------------------------------------------------------------------------
-5. TRANSITIONS  
+5. TRANSITIONS
 ------------------------------------------------------------------------------------------------------------------------
 */
 .mCSB_scrollTools,
@@ -8287,23 +8460,23 @@ yx-axis
 .mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail {
-  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s, 
- margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, 
- margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s,
- opacity .2s ease-in-out, background-color .2s ease-in-out;
-  transition: width .2s ease-out .2s, height .2s ease-out .2s, 
- margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, 
- margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s,
- opacity .2s ease-in-out, background-color .2s ease-in-out; }
+  -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s,
+  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,
+  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s,
+  opacity .2s ease-in-out, background-color .2s ease-in-out;
+  transition: width .2s ease-out .2s, height .2s ease-out .2s,
+  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,
+  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s,
+  opacity .2s ease-in-out, background-color .2s ease-in-out; }
 
-/* 
+/*
 ------------------------------------------------------------------------------------------------------------------------
-6. SCROLLBAR COLORS, OPACITY AND BACKGROUNDS  
+6. SCROLLBAR COLORS, OPACITY AND BACKGROUNDS
 ------------------------------------------------------------------------------------------------------------------------
 */
-/* 
+/*
 	----------------------------------------
-	6.1 THEMES 
+	6.1 THEMES
 	----------------------------------------
 	*/
 /* default theme ("light") */
@@ -8366,15 +8539,15 @@ yx-axis
 
 .mCSB_scrollTools .mCSB_buttonUp {
   background-position: 0 0;
-  /* 
-		sprites locations 
+  /*
+		sprites locations
 		light: 0 0, -16px 0, -32px 0, -48px 0, 0 -72px, -16px -72px, -32px -72px
 		dark: -80px 0, -96px 0, -112px 0, -128px 0, -80px -72px, -96px -72px, -112px -72px
 		*/ }
 
 .mCSB_scrollTools .mCSB_buttonDown {
   background-position: 0 -20px;
-  /* 
+  /*
 		sprites locations
 		light: 0 -20px, -16px -20px, -32px -20px, -48px -20px, 0 -92px, -16px -92px, -32px -92px
 		dark: -80px -20px, -96px -20px, -112px -20px, -128px -20px, -80px -92px, -96px -92px, -112 -92px
@@ -8382,16 +8555,16 @@ yx-axis
 
 .mCSB_scrollTools .mCSB_buttonLeft {
   background-position: 0 -40px;
-  /* 
-		sprites locations 
+  /*
+		sprites locations
 		light: 0 -40px, -20px -40px, -40px -40px, -60px -40px, 0 -112px, -20px -112px, -40px -112px
 		dark: -80px -40px, -100px -40px, -120px -40px, -140px -40px, -80px -112px, -100px -112px, -120px -112px
 		*/ }
 
 .mCSB_scrollTools .mCSB_buttonRight {
   background-position: 0 -56px;
-  /* 
-		sprites locations 
+  /*
+		sprites locations
 		light: 0 -56px, -20px -56px, -40px -56px, -60px -56px, 0 -128px, -20px -128px, -40px -128px
 		dark: -80px -56px, -100px -56px, -120px -56px, -140px -56px, -80px -128px, -100px -128px, -120px -128px
 		*/ }
@@ -11612,3 +11785,101 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   margin-bottom: 0;
   width: 100%;
   float: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .col-md-1 {
+
+
+  }
+  .col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    -webkit-box-flex: 0;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%; }
+  .col-md-3 {
+    -ms-flex: 100%;
+    -webkit-box-flex: 0;
+    flex:100% !important;
+    max-width: 100% !important;
+    width: 100%!important;
+  }
+  .col-md-4 {
+    -ms-flex: 100%;
+    -webkit-box-flex: 0;
+    flex:100% !important;
+    max-width: 100% !important;
+    width: 100%!important;
+  }
+  .col-md-5 {
+    -ms-flex: 100%;
+    -webkit-box-flex: 0;
+    flex:100% !important;
+    max-width: 100% !important;
+    width: 100%!important;
+  }
+  .col-md-6 {
+    -ms-flex: 100%;
+    -webkit-box-flex: 0;
+    flex:100% !important;
+    max-width: 100% !important;
+    width: 100%!important;
+  }
+  .col-md-7 {
+    -ms-flex: 0 0 100%;
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%; }
+  .col-md-8 {
+    -ms-flex: 0 0 100%;
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;}
+  .col-md-9 {
+    -ms-flex: 0 0 100%;
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%; }
+  .col-md-10 {
+    -ms-flex: 0 0 100%;
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;}
+  .col-md-11 {
+    -ms-flex: 0 0 100%;
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .col-md-12 {
+    -ms-flex: 0 0 100%;
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+

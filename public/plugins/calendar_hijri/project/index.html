@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Bootstrap Hijri Date Picker
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="rtl">
+    <div class="container">
+
+        <div class="form-group">
+            <div class="input-group">
+                <input class=" " type='text' class="form-control" id="hijri-date-input" />
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+    <script src="js/bootstrap-hijri-datepicker.min.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+            let elem = $("#hijri-date-input");
+            elem.hijriDatePicker({
+                locale: "ar-sa",
+                format: "DD-MM-YYYY",
+                hijriFormat: "iYYYY-iMM-iDD",
+                dayViewHeaderFormat: "MMMM YYYY",
+                hijriDayViewHeaderFormat: "iMMMM iYYYY",
+                showSwitcher: false,
+                allowInputToggle: true,
+                showTodayButton: false,
+                useCurrent: true,
+                isRTL: false,
+                viewMode: 'days',
+                hijri: true,
+                debug: true,
+                showClear: false,
+                showTodayButton: false,
+                showClose: false
+            }).focus();
+
+        });
+
+        // http://hijri-datepicker.azurewebsites.net/doc
+        // https://momentjs.com/docs/
+    </script>
+
+</body>
+</html>

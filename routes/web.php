@@ -21,7 +21,6 @@ Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
 
 
 Route::get('/home', 'HomeController@index')->name('home');
-
 Route::get('/about', 'HomeController@about')->name('about');
 
 //روابط ذات صلة
@@ -36,13 +35,24 @@ Route::get('/related-sites/educational_sciences', 'RelatedSitesController@educat
 
 // نظم ومصادر التعلم
 Route::get('/under_construction', 'RelatedSitesController@under_construction')->name('under_construction');
+// نظم ومصادر التعلم نهاية 
 
 // مناسبات
 Route::get('/events', 'RelatedSitesController@events')->name('events');
 Route::get('/events2', 'RelatedSitesController@events2')->name('events2');
+//نهاية  مناسبات
 
 //التطوير المهني
-Route::get('professional_development/create_courses', 'RelatedSitesController@create_courses')->name('create_courses');
+Route::get('professional_development/educational_lessons', 'ProfessionalDevelopmentController@educational_lessons')->name('educational_lessons');
+Route::get('professional_development/practical_lessons', 'ProfessionalDevelopmentController@practical_lessons')->name('practical_lessons');
+Route::get('professional_development/active_learning', 'ProfessionalDevelopmentController@active_learning')->name('active_learning');
+        // انهاء الدروس
+
+        //  التدريب
+        //  مهارات البحث ومصادر المعلومات
+Route::get('training/training1', 'ProfessionalDevelopmentController@training1')->name('training1');
+
+// نهاية التطوير المهني
 
 
 Route::group(['prefix' => 'admin'], function () {
