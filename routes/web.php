@@ -51,8 +51,35 @@ Route::get('professional_development/active_learning', 'ProfessionalDevelopmentC
         //  التدريب
         //  مهارات البحث ومصادر المعلومات
 Route::get('training/training1', 'ProfessionalDevelopmentController@training1')->name('training1');
+Route::get('training/training2', 'ProfessionalDevelopmentController@training2')->name('training2');
+Route::get('training/training3', 'ProfessionalDevelopmentController@training3')->name('training3');
+Route::get('training/training4', 'ProfessionalDevelopmentController@training4')->name('training4');
+Route::get('training/training5', 'ProfessionalDevelopmentController@training5')->name('training5');
+Route::get('training/training6', 'ProfessionalDevelopmentController@training6')->name('training6');
+Route::get('training/training7', 'ProfessionalDevelopmentController@training7')->name('training7');
 
 // نهاية التطوير المهني
+// درسات وبحوث 
+Route::get('researches/researches1', 'ProfessionalDevelopmentController@researches1')->name('researches1');
+Route::get('researches/researches2', 'ProfessionalDevelopmentController@researches2')->name('researches2');
+Route::get('researches/researches3', 'ProfessionalDevelopmentController@researches3')->name('researches3');
+// درسات وبحوث نهاية
+// نماذج  
+Route::get('models/model1', 'ProfessionalDevelopmentController@model1')->name('model1');
+Route::get('models/model2', 'ProfessionalDevelopmentController@model2')->name('model2');
+Route::get('models/model3', 'ProfessionalDevelopmentController@model3')->name('model3');
+Route::get('models/model4', 'ProfessionalDevelopmentController@model4')->name('model4');
+Route::get('models/model5', 'ProfessionalDevelopmentController@model5')->name('model5');
+Route::get('models/model6', 'ProfessionalDevelopmentController@model6')->name('model6');
+Route::get('models/model7', 'ProfessionalDevelopmentController@model7')->name('model7');
+Route::get('models/model8', 'ProfessionalDevelopmentController@model8')->name('model8');
+Route::get('models/model9', 'ProfessionalDevelopmentController@model9')->name('model9');
+Route::get('models/model10', 'ProfessionalDevelopmentController@model10')->name('model10');
+Route::get('models/model11', 'ProfessionalDevelopmentController@model11')->name('model11');
+Route::get('models/model12', 'ProfessionalDevelopmentController@model12')->name('model12');
+
+// نماذج نهاية  
+
 
 
 Route::group(['prefix' => 'admin'], function () {

@@ -65,6 +65,5 @@
         </div>
 
     </section>
-    @include('professional_development.videos_and_img_and_file')
+    @include('training.videos_and_img_and_file')
 @endsection
-

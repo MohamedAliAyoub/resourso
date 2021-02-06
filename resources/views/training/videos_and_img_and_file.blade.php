@@ -32,7 +32,7 @@
                 <div class="card" style="width:auto;">
                     <img class="card-img-top" src="{{asset('vendors/images/pdf.png')}}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">{{$item->title}}</h5>
+                        <h5 class="card-title">{{$item->title}} </h5>
                         <p class="card-text">{{$item->description}}</p>
 
                         <p class="content_icon_play">
@@ -51,7 +51,7 @@
                 <div class="card" style="width:auto;">
                     <img class="card-img-top" src="{{asset('storage/'.$item->image)}}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">{{$item->title}}</h5>
+                        <h5 class="card-title">{{$item->title}}  </h5>
                         <p class="card-text">{{$item->description}}</p>
 
                         <p class="content_icon_play">

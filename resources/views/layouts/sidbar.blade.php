@@ -41,13 +41,13 @@
         <a href="#">    <i class="fa fa-angle-left icon_sup_left"></i> حقائب تدريبية </a>
         <ul>
          <li><a href=" {{route('training1')}} ">   مهارات البحث ومصادر المعلومات   </a></li>
-         <li><a href="active_link3.blade.php">   التعليم الالكترونى وتقنيات التعلم  </a></li>
-         <li><a href="active_link4.blade.php">    القياده والاداره     </a></li>
-         <li><a href="active_link5.blade.php">    تطوير الذات     </a></li>
+         <li><a href="{{route('training2')}}">   التعليم الالكترونى وتقنيات التعلم  </a></li>
+         <li><a href="{{route('training6')}}">    القياده والاداره     </a></li>
+         <li><a href="{{route('training7')}}">    تطوير الذات     </a></li>
         </ul>
        </li>
-       <li><a href="active_link2.blade.php">  نشرات تربوية  </a></li>
-       <li><a href="active_link3.blade.php"> قاعه التدريب   </a></li>
+       <li><a href="{{route('training4')}}">  نشرات تربوية  </a></li>
+       <li><a href="{{route('training5')}}"> قاعه التدريب   </a></li>
       </ul>
      </li>
      <li>
@@ -56,18 +56,18 @@
 
       <ul>
 
-       <li><a href="anonymous.blade.php"> أوراق عمل  </a></li>
-       <li><a href="anonymous.blade.php"> رسائل علمية  </a></li>
-       <li><a href="anonymous.blade.php"> بحوث إجرائية </a></li>      </ul>
+       <li><a href="{{route('researches1')}}"> أوراق عمل  </a></li>
+       <li><a href="{{route('researches2')}}"> رسائل علمية  </a></li>
+       <li><a href="{{route('researches3')}}"> بحوث إجرائية </a></li>      </ul>
      </li>
 
      <li>
       <a href="#">  <i class="fa fa-angle-left icon_sup_left"></i> نماذج    </a>
       <ul>
        <li><a >    <i class="fa fa-angle-left icon_sup_left"></i>  نماذج خطط  </a>
-        <ul>
-         <li><a href="anonymous.blade.php"> خطة تفصيلية</a></li>
-         <li><a href="anonymous.blade.php"> خطة تشغيلية</a></li>
+        <ul> 
+         <li><a href="{{route('model1')}}"> خطة تفصيلية</a></li>
+         <li><a href="{{route('model2')}}"> خطة تشغيلية</a></li>
 
          </li>
 
@@ -76,9 +76,9 @@
        <li><a  >       <i class="fa fa-angle-left icon_sup_left"></i> نماذج تقارير  </a>
         <ul>
 
-         <li><a href="anonymous.blade.php">تقارير دورية </a></li>
-         <li><a href="anonymous.blade.php"> تقارير ختامية</a></li>
-         <li><a href="anonymous.blade.php"> تقارير أخرى</a></li>
+         <li><a href="{{route('model3')}}">تقارير دورية </a></li>
+         <li><a href="{{route('model4')}}"> تقارير ختامية</a></li>
+         <li><a href="{{route('model5')}}"> تقارير أخرى</a></li>
 
          </li>
 
@@ -87,18 +87,18 @@
        <li><a  >       <i class="fa fa-angle-left icon_sup_left"></i>نماذج العهدة  </a>
         <ul>
 
-         <li><a href="anonymous.blade.php"> محضر نقل عهده   </a></li>
-         <li><a href="anonymous.blade.php">  محضر فقد واتالف </a></li>
-         <li><a href="anonymous.blade.php">  محضر سحب رجيع </a></li>
-         <li><a href="anonymous.blade.php"> نموذج األثاث الزائد </a></li>
-         <li><a href="anonymous.blade.php"> نموذج نقل المركز </a></li>
+         <li><a href="{{route('model6')}}"> محضر نقل عهده   </a></li>
+         <li><a href="{{route('model7')}}">  محضر فقد واتالف </a></li>
+         <li><a href="{{route('model8')}}">  محضر سحب رجيع </a></li>
+         <li><a href="{{route('model9')}}"> نموذج األثاث الزائد </a></li>
+         <li><a href="{{route('model10')}}"> نموذج نقل المركز </a></li>
 
          </li>
 
         </ul>
        </li>
-       <li><a href="anonymous.blade.php">  نماذج  اخرى      </a></li>
-       <li><a href="anonymous.blade.php">  نماذج من اختبارات المرشحين  </a></li>
+       <li><a href="{{route('model11')}}">  نماذج  اخرى      </a></li>
+       <li><a href="{{route('model12')}}">  نماذج من اختبارات المرشحين  </a></li>
       </ul>
      </li>
 
