@@ -7,6 +7,17 @@ use App\Course ;
 use App\Exercise ; 
 use App\Research ; 
 use App\Modelle ; 
+use App\Form ; 
+use App\Regulation ; 
+use App\Circular ;
+use App\Clue ;
+use App\Document ;
+
+
+ 
+
+
+
 
 
 
@@ -184,5 +195,150 @@ class ProfessionalDevelopmentController extends Controller
             //    dd($items);
             return view ('modells.model12' ,  compact('items'));
         } 
-        // نهاية النماذج                               
+        // نهاية النماذج  
+        // استمارات
+
+
+        // استمارة تبادل زيارة
+        public function form1(){
+            $items = Form::where('type' , 1)->paginate(15);
+            //    dd($items);
+            return view ('forms.form1' ,  compact('items'));
+        }
+
+        //   استمارة زيارة مركز 
+        public function form2(){
+            $items = Form::where('type' , 2)->paginate(15);
+            //    dd($items);
+            return view ('forms.form2' ,  compact('items'));
+        }
+        // استمارة تقويم األداءالوظيفي
+        public function form3(){
+            $items = Form::where('type' , 3)->paginate(15);
+            //    dd($items);
+            return view ('forms.form3' ,  compact('items'));
+        }
+        // استمارة تقييم برنامج تدريبي 
+        public function form4(){
+            $items = Form::where('type' , 4)->paginate(15);
+            //    dd($items);
+            return view ('forms.form4' ,  compact('items'));
+        }
+        // استمارة توثيق برنامج تدريبي
+        public function form5(){
+            $items = Form::where('type' , 5)->paginate(15);
+            //    dd($items);
+            return view ('forms.form5' ,  compact('items'));
+        }
+        // استمارة طلب إنهاء تكليف
+       
+        public function form6(){
+            $items = Form::where('type' , 6)->paginate(15);
+            //    dd($items);
+            return view ('forms.form6' ,  compact('items'));
+        }
+        //نهاية استمارات
+        // لوائح
+        // لائحة شاغلي الوظائف التعليمية
+        public function regulations1(){
+            $items = Regulation::where('type' , 1)->paginate(15);
+            //    dd($items);
+            return view ('regulations.regulations1' ,  compact('items'));
+        }
+
+        // لائحة التشكيلات المدرسية 
+        public function regulations2(){
+            $items = Regulation::where('type' , 2)->paginate(15);
+            //    dd($items);
+            return view ('regulations.regulations2' ,  compact('items'));
+        }
+        // مدونة قواعد السلوك الوظيفي وأخلاقيات الوظيفة العامة 
+        public function regulations3(){
+            $items = Regulation::where('type' , 3)->paginate(15);
+            //    dd($items);
+            return view ('regulations.regulations3' ,  compact('items'));
+        }
+        //نهاية لوائح
+        // التعاميم
+        // الترشيح لعمل أمين مصادر  
+        public function circulars1(){
+            $items = Circular::where('type' , 1)->paginate(15);
+            //    dd($items);
+            return view ('circulars.circulars1' ,  compact('items'));
+        }
+        // منع استخدام المصادر كقاعة دراسية
+        public function circulars2(){
+            $items = Circular::where('type' , 2)->paginate(15);
+            //    dd($items);
+            return view ('circulars.circulars2' ,  compact('items'));
+        }
+
+        // تفعيل مراكز مصادر التعلم  
+        public function circulars3(){
+            $items = Circular::where('type' , 3)->paginate(15);
+            //    dd($items);
+            return view ('circulars.circulars3' ,  compact('items'));
+        }
+        // استخدام أجهزة مراكز مصادر التعلم 
+        public function circulars4(){
+            $items = Circular::where('type' , 4)->paginate(15);
+            //    dd($items);
+            return view ('circulars.circulars4' ,  compact('items'));
+        }
+        // مدونة قواعد السلوك الوظيفي وأخالقيات الوظيفة العامة 
+        public function circulars5(){
+            $items = Circular::where('type' , 5)->paginate(15);
+            //    dd($items);
+            return view ('circulars.circulars5' ,  compact('items'));
+        }
+        //نهاية التعاميم
+        // الادلة
+        // دليل مصادر التعلم 
+        public function clues1(){
+            $items = Clue::where('type' , 1)->paginate(15);
+            //    dd($items);
+            return view ('clues.clues1' ,  compact('items'));
+        }
+
+        // الدليل اإلجرائي  
+        public function clues2(){
+            $items = Clue::where('type' , 2)->paginate(15);
+            //    dd($items);
+            return view ('clues.clues2' ,  compact('items'));
+        }
+        // الدليل التنظيمي 
+        public function clues3(){
+            $items = Clue::where('type' , 3)->paginate(15);
+            //    dd($items);
+            return view ('clues.clues3' ,  compact('items'));
+        }
+
+        // الدليل اإلرشادي للمكتبة المدرسية
+        public function clues4(){
+            $items = Clue::where('type' , 4)->paginate(15);
+            //    dd($items);
+            return view ('clues.clues4' ,  compact('items'));
+        }
+        
+        //نهاية الادلة
+        // وثائق
+        // وثيقة سياسة التعليم 
+        public function documents1(){
+            $items = Document::where('type' , 1)->paginate(15);
+            //    dd($items);
+            return view ('documents.documents1' ,  compact('items'));
+        }
+        // وثيقة المعايير المهنية للمعلمين 
+        public function documents2(){
+            $items = Document::where('type' , 2)->paginate(15);
+            //    dd($items);
+            return view ('documents.documents2' ,  compact('items'));
+        }
+
+        //نهاية وثائق
+        
+
+
+
+
 }

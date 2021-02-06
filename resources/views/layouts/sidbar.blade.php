@@ -108,12 +108,12 @@
        <i class="fa fa-angle-left icon_sup_left"></i>
       </a>
       <ul id="menu-mensagens-sub" >
-       <li class="menu_sup_down_li"><a href="anonymous.blade.php"> استمارة تبادل زيارة      </a></li>
-       <li class="menu_sup_down_li"><a href="anonymous.blade.php">   استمارة زيارة مركز       </a></li>
-       <li class="menu_sup_down_li"><a href="anonymous.blade.php">  استمارة تقويم األداءالوظيفي </a></li>
-       <li class="menu_sup_down_li"><a href="anonymous.blade.php"> استمارة تقييم برنامج تدريبي </a></li>
-       <li class="menu_sup_down_li"><a href="anonymous.blade.php">  استمارة توثيق برنامج تدريبي  </a></li>
-       <li class="menu_sup_down_li"><a href="anonymous.blade.php">  استمارة طلب إنهاء تكليف  </a></li>
+       <li class="menu_sup_down_li"><a href="{{route('form1')}}"> استمارة تبادل زيارة      </a></li>
+       <li class="menu_sup_down_li"><a href="{{route('form2')}}">   استمارة زيارة مركز       </a></li>
+       <li class="menu_sup_down_li"><a href="{{route('form3')}}">  استمارة تقويم األداءالوظيفي </a></li>
+       <li class="menu_sup_down_li"><a href="{{route('form4')}}"> استمارة تقييم برنامج تدريبي </a></li>
+       <li class="menu_sup_down_li"><a href="{{route('form5')}}">  استمارة توثيق برنامج تدريبي  </a></li>
+       <li class="menu_sup_down_li"><a href="{{route('form6')}}">  استمارة طلب إنهاء تكليف  </a></li>
       </ul>
      </li>
 
@@ -123,19 +123,19 @@
       <ul>
        <li><a  >     <i class="fa fa-angle-left icon_sup_left"></i>الوائح   </a>
         <ul>
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php">   الئحة شاغلي الوظائف التعليمية        </a></li>
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php">   الئحة التشكيالت المدرسية        </a></li>
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php">  مدونةقواعد السلوك الوظيفي وأخالقيات الوظيفة العامة  </a></li>
+         <li class="menu_sup_down_li"><a href="{{route('regulations1')}}">   الئحة شاغلي الوظائف التعليمية        </a></li>
+         <li class="menu_sup_down_li"><a href="{{route('regulations2')}}">   الئحة التشكيالت المدرسية        </a></li>
+         <li class="menu_sup_down_li"><a href="{{route('regulations3')}}">  مدونةقواعد السلوك الوظيفي وأخالقيات الوظيفة العامة  </a></li>
          </li>
         </ul>
        </li>
        <li><a  >       <i class="fa fa-angle-left icon_sup_left"></i>   التعاميم  </a>
         <ul class="ul_size_ucstom">
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php">  الترشيح لعمل أمين مصادر  </a></li>
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php"> منع استخدام المصادر كقاعة دراسية </a></li>
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php">    تفعيل مراكز مصادر التعلم  </a></li>
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php"> استخدام أجهزة مراكز مصادر التعلم </a></li>
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php">  تفعيل نظام نور  </a></li>
+         <li class="menu_sup_down_li"><a href="{{route('circulars1')}}">  الترشيح لعمل أمين مصادر  </a></li>
+         <li class="menu_sup_down_li"><a href="{{route('circulars2')}}"> منع استخدام المصادر كقاعة دراسية </a></li>
+         <li class="menu_sup_down_li"><a href="{{route('circulars3')}}">    تفعيل مراكز مصادر التعلم  </a></li>
+         <li class="menu_sup_down_li"><a href="{{route('circulars4')}}"> استخدام أجهزة مراكز مصادر التعلم </a></li>
+         <li class="menu_sup_down_li"><a href="{{route('circulars5')}}">  تفعيل نظام نور  </a></li>
          </li>
 
         </ul>
@@ -149,21 +149,18 @@
       <ul>
        <li><a  >      <i class="fa fa-angle-left icon_sup_left"></i>  ادلة</a>
         <ul>
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php">  دليل مصادر التعلم </a></li>
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php"> الدليل اإلجرائي</a></li>
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php"> الدليل التنظيمي   </a></li>
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php">  الدليل اإلرشادي للمكتبة المدرسية </a></li>
+         <li class="menu_sup_down_li"><a href="{{route('clues1')}}">  دليل مصادر التعلم </a></li>
+         <li class="menu_sup_down_li"><a href="{{route('clues2')}}"> الدليل اإلجرائي</a></li>
+         <li class="menu_sup_down_li"><a href="{{route('clues3')}}"> الدليل التنظيمي   </a></li>
+         <li class="menu_sup_down_li"><a href="{{route('clues4')}}">  الدليل اإلرشادي للمكتبة المدرسية </a></li>
          </li>
         </ul>
        </li>
        <li><a  >       <i class="fa fa-angle-left icon_sup_left"></i>   وثائق  </a>
         <ul class="ul_size_ucstom">
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php">  الترشيح لعمل أمين مصادر  </a></li>
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php"> منع استخدام المصادر كقاعة دراسية </a></li>
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php">    تفعيل مراكز مصادر التعلم  </a></li>
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php"> استخدام أجهزة مراكز مصادر التعلم </a></li>
-         <li class="menu_sup_down_li"><a href="anonymous.blade.php">  تفعيل نظام نور  </a></li>
-         </li>
+         <li class="menu_sup_down_li"><a href="{{route('documents1')}}"> وثيقة سياسة التعليم  </a></li>
+         <li class="menu_sup_down_li"><a href="{{route('documents2')}}"> وثيقة المعايير المهنية للمعلمين </a></li>
+
         </ul>
        </li>
       </ul>
@@ -201,7 +198,7 @@
      <li id="menu-arquivos" ><a href="{{ route('search_engines') }}">محركات البحث  </a></li>
      <li id="menu-arquivos" ><a href="{{ route('forums_and_forums') }}"> منتديات وملتقيات</a></li>
      <li id="menu-arquivos" ><a href="{{ route('professional_gatherings') }}"> تجمعات مهنية</a></li>
-     <li id="menu-arquivos" ><a href="court_patrols.blade.php"> دوريات محكمة  </a></li>
+     <li id="menu-arquivos" ><a href="{{route('patrols')}}"> دوريات محكمة  </a></li>
      <li id="menu-arquivos" ><a href="{{ route('educational_sciences') }}"> جمعيات علميه </a></li>
     </ul>
    </li>

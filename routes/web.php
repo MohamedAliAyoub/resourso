@@ -26,6 +26,7 @@ Route::get('/about', 'HomeController@about')->name('about');
 //روابط ذات صلة
 Route::get('/related-sites/educational_institutions', 'RelatedSitesController@educational_institutions')->name('educational_institutions');
 Route::get('/related-sites/virtual_school', 'RelatedSitesController@virtual_school')->name('virtual_school');
+Route::get('/related-sites/patrols', 'RelatedSitesController@patrols')->name('patrols');
 Route::get('/related-sites/libraries', 'RelatedSitesController@libraries')->name('libraries');
 Route::get('/related-sites/libraries2', 'RelatedSitesController@libraries2')->name('libraries2');
 Route::get('/related-sites/search_engines', 'RelatedSitesController@search_engines')->name('search_engines');
@@ -79,6 +80,41 @@ Route::get('models/model11', 'ProfessionalDevelopmentController@model11')->name(
 Route::get('models/model12', 'ProfessionalDevelopmentController@model12')->name('model12');
 
 // نماذج نهاية  
+// استمارات
+Route::get('forms/form1', 'ProfessionalDevelopmentController@form1')->name('form1');
+Route::get('forms/form2', 'ProfessionalDevelopmentController@form2')->name('form2');
+Route::get('forms/form3', 'ProfessionalDevelopmentController@form3')->name('form3');
+Route::get('forms/form4', 'ProfessionalDevelopmentController@form4')->name('form4');
+Route::get('forms/form5', 'ProfessionalDevelopmentController@form5')->name('form5');
+Route::get('forms/form6', 'ProfessionalDevelopmentController@form6')->name('form6');
+
+// استمارات نهاية
+
+// لوائح
+Route::get('regulations/regulations1', 'ProfessionalDevelopmentController@regulations1')->name('regulations1');
+Route::get('regulations/regulations2', 'ProfessionalDevelopmentController@regulations2')->name('regulations2');
+Route::get('regulations/regulations3', 'ProfessionalDevelopmentController@regulations3')->name('regulations3');
+//نهاية لوائح
+// التعاميم
+Route::get('circulars/circulars1', 'ProfessionalDevelopmentController@circulars1')->name('circulars1');
+Route::get('circulars/circulars2', 'ProfessionalDevelopmentController@circulars2')->name('circulars2');
+Route::get('circulars/circulars3', 'ProfessionalDevelopmentController@circulars3')->name('circulars3');
+Route::get('circulars/circulars4', 'ProfessionalDevelopmentController@circulars4')->name('circulars4');
+Route::get('circulars/circulars5', 'ProfessionalDevelopmentController@circulars5')->name('circulars5');
+
+//نهاية التعاميم
+
+// الادلة
+Route::get('clues/clues1', 'ProfessionalDevelopmentController@clues1')->name('clues1');
+Route::get('clues/clues2', 'ProfessionalDevelopmentController@clues2')->name('clues2');
+Route::get('clues/clues3', 'ProfessionalDevelopmentController@clues3')->name('clues3');
+Route::get('clues/clues4', 'ProfessionalDevelopmentController@clues4')->name('clues4');
+//نهاية الادلة
+// وثائق
+Route::get('documents/documents1', 'ProfessionalDevelopmentController@documents1')->name('documents1');
+Route::get('documents/documents2', 'ProfessionalDevelopmentController@documents2')->name('documents2');
+
+//نهاية وثائق
 
 
 

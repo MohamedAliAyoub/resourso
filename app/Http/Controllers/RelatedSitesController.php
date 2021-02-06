@@ -13,6 +13,10 @@ use App\ForumsAndForum;
 use App\TrainingPlatform;
 use App\Occasion;
 use App\Course;
+use App\Patrol;
+
+
+
 
 class RelatedSitesController extends Controller
 {
@@ -32,6 +36,15 @@ class RelatedSitesController extends Controller
 
         return view('related-sites.virtual_school' , compact('virtualSchool'));
     }
+
+    // patrols  دوريات محكمة
+        public function patrols()
+        {
+            $virtualSchool = Patrol::paginate(15);
+            //  dd($virtualSchool);
+    
+            return view('related-sites.virtual_school' , compact('virtualSchool'));
+        }
 
     // مكتبات
     public function libraries()
@@ -93,7 +106,7 @@ class RelatedSitesController extends Controller
      {
         
         $events = Occasion::where('type' , 'option1')->paginate(15);
-            dd($events );
+            // dd($events );
          return view('events.events' , compact('events'));
      }
 
